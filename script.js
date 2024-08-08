@@ -13,6 +13,8 @@ function run() {
 	generation = generation_2;
     } else if (gen == 3) {
 	generation = generation_3;
+    } else if (gen == 1) {
+	generation = generation_1;
     } else {
 	alert("Wrong generation type");
     }
@@ -29,7 +31,7 @@ function run() {
     arr.forEach(element => {
 	const p = document.createElement("p");
 	p.textContent = element;
-	arr.appenedChild(p);
+	arr.appendChild(p);
     });
 
     ball_types = []
@@ -70,7 +72,7 @@ function run() {
     result.forEach(r => {
 	const p = document.createElement("p");
 	p.textContent = r;
-	arr.appenedChild(p);
+	arr.appendChild(p);
     })
 
 }
