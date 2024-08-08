@@ -6,13 +6,11 @@
     <h1>Pokemon Catcher!</h1>
     
     <div id="form">
-      <form onSubmit="run();">
-	<label for="fname">How many Bookemon Rolls do you want to do?</label><br>
+	<p>How many Bookemon Rolls do you want to do?</p><br>
 	<input type="text" id="rolls" name="rolls"><br>
-	<label for="lname">What is the Generation? (Enter 1, 2, or 3)</label><br>
+	<p>What is the Generation? (Enter 1, 2, or 3)</p><br>
 	<input type="text" id="gen" name="gen">
-	<input type="submit" value="Submit">
-      </form>
+	<input type="button" onClick="run();">Submit</input>
     </div>
 
     <div id="rolls_div"></div>
