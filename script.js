@@ -61,9 +61,9 @@ function run() {
 	}
 
 	if(res == 1) {
-	    result[i] += "got away.";
+	    result[i] += " got away.";
 	} else {
-	    result[i] += "was caught!";
+	    result[i] += " was caught!";
 	}
     }
 
