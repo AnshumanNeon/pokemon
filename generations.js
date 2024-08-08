@@ -23,8 +23,8 @@ generation_1 = {
     128: "Tauros", 129: "Magikarp", 130: "Gyarados", 131: "Lapras", 132: "Ditto", 133: "Eevee",
     134: "Vaporeon", 135: "Jolteon", 136: "Flareon", 137: "Porygon", 138: "Omanyte", 139: "Omastar",
     140: "Kabuto", 141: "Kabutops", 142: "Aerodactyl", 143: "Snorlax", 144: "Articuno", 145: "Zapdos",
-    146: "Moltres", 147: "Dratini", 148: "Dragonair", 149: "Dragonite", 150: "Mewtwo", 151: "Mew"
-}
+    146: "Moltres", 147: "Dratini", 148: "Dragonair", 149: "Dragonite", 150: "Mewtwo", 151: "Mew",
+};
 
 generation_2 = {
     1: "Chikorita", 2: "Bayleef", 3: "Meganium", 4: "Cyndaquil", 5: "Quilava", 6: "Typhlosion",
@@ -48,8 +48,8 @@ generation_2 = {
     109: "Porygon2", 110: "Stantler", 111: "Smeargle", 112: "Tyrogue", 113: "Hitmontop", 114: "Smoochum",
     115: "Elekid", 116: "Magby", 117: "Miltank", 118: "Blissey", 119: "Raikou", 120: "Entei",
     121: "Suicune", 122: "Larvitar", 123: "Pupitar", 124: "Tyranitar", 125: "Lugia", 126: "Ho-Oh",
-    127: "Celebi"
-}
+    127: "Celebi",
+};
 
 generation_3 = {
     1: "Treecko", 2: "Grovyle", 3: "Sceptile", 4: "Torchic", 5: "Combusken", 6: "Blaziken",
@@ -74,5 +74,5 @@ generation_3 = {
     115: "Clamperl", 116: "Huntail", 117: "Gorebyss", 118: "Relicanth", 119: "Luvdisc",
     120: "Bagon", 121: "Shelgon", 122: "Salamence", 123: "Beldum", 124: "Metang", 125: "Metagross",
     126: "Regirock", 127: "Regice", 128: "Registeel", 129: "Latias", 130: "Latios", 131: "Kyogre",
-    132: "Groudon", 133: "Rayquaza", 134: "Jirachi", 135: "Deoxys"
-}
+    132: "Groudon", 133: "Rayquaza", 134: "Jirachi", 135: "Deoxys",
+};
