@@ -69,7 +69,7 @@ generation_3 = {
     85: "Seviper", 86: "Lunatone", 87: "Solrock", 88: "Barboach", 89: "Whiscash", 90: "Corphish",
     91: "Crawdaunt", 92: "Baltoy", 93: "Claydol", 94: "Lileep", 95: "Cradily", 96: "Anorith",
     97: "Armaldo", 98: "Feebas", 99: "Milotic", 100: "Castform", 101: "Kecleon", 102: "Shuppet",
-    103: "Banette", 104: "Duskull", 105: "Dusclops", 106: "Tropius", 107: "Chimecho", 108: "Absol"
+    103: "Banette", 104: "Duskull", 105: "Dusclops", 106: "Tropius", 107: "Chimecho", 108: "Absol",
     109: "Wynaut", 110: "Snorunt", 111: "Glalie", 112: "Spheal", 113: "Sealeo", 114: "Walrein",
     115: "Clamperl", 116: "Huntail", 117: "Gorebyss", 118: "Relicanth", 119: "Luvdisc",
     120: "Bagon", 121: "Shelgon", 122: "Salamence", 123: "Beldum", 124: "Metang", 125: "Metagross",
