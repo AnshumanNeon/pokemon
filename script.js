@@ -31,7 +31,7 @@ function run() {
     arr.forEach(element => {
 	const p = document.createElement("p");
 	p.textContent = element;
-	arr.appendChild(p);
+	arr.append(p);
     });
 
     ball_types = []
@@ -72,7 +72,7 @@ function run() {
     result.forEach(r => {
 	const p = document.createElement("p");
 	p.textContent = r;
-	arr.appendChild(p);
+	res_div.appendChild(p);
     })
 
 }
