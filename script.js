@@ -31,14 +31,14 @@ function run() {
     arr.forEach(element => {
 	const p = document.createElement("p");
 	p.textContent = element;
-	arr.append(p);
+	rolls.appendChild(p);
     });
 
     ball_types = []
 
     arr.forEach(element => {
 	let type = prompt(`Enter the ball type for #${element} (${generation[arr.indexOf(element)]}). Enter 1 for a Regular ball, 2 for a Great Ball, 3 for a Ultra Ball and 4 for a Master Ball.`);
-	ball_types.append(type);
+	ball_types.push(type);
     });
 
     result = []
