@@ -9,13 +9,17 @@ function run() {
     gen = document.getElementById("gen").value;
 
     generation = generation_1;
+    add = 0;
 
     if (gen == 2) {
 	generation = generation_2;
+	add = 151;
     } else if (gen == 3) {
 	generation = generation_3;
+	add = 251;
     } else if (gen == 1) {
 	generation = generation_1;
+	add = 0;
     } else {
 	alert("Wrong generation type");
     }
@@ -38,14 +42,14 @@ function run() {
     ball_types = [];
 
     arr.forEach(element => {
-	let type = prompt(`Enter the ball type for #${element} (${generation[element-1]}). Enter 1 for a Regular ball, 2 for a Great Ball, 3 for a Ultra Ball and 4 for a Master Ball.`);
+	let type = prompt(`Enter the ball type for #${add+element} (${generation[element-1]}). Enter 1 for a Regular ball, 2 for a Great Ball, 3 for a Ultra Ball and 4 for a Master Ball.`);
 	ball_types.push(type);
     });
 
     result = [];
 
     for(let i = 0; i < ball_types.length; i++) {
-	result[i] = `#${arr[i]} ${generation[arr[i]-1]}`;
+	result[i] = `#${add+arr[i]} ${generation[arr[i]-1]}`;
 
 	let x = 0
 
