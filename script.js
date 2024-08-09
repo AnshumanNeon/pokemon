@@ -1,9 +1,10 @@
 function getRandomInt(min, max) {
-    return Math.floor(Math.random() * max) + min;
+    a = Math.ceil(min);
+    b = Math.floor(max);
+    return Math.floor(Math.random() * (b - a + 1)) + a;
 }
 
 function run() {
-
     num_rolls = document.getElementById("rolls").value;
     gen = document.getElementById("gen").value;
 
@@ -74,5 +75,4 @@ function run() {
 	p.textContent = r;
 	res_div.appendChild(p);
     })
-
 }
