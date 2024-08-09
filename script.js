@@ -31,14 +31,6 @@ function run() {
 	arr.push(getRandomInt(1, bookemon_num));
     }
 
-    rolls = document.getElementById("rolls_div");
-
-    arr.forEach(element => {
-	const p = document.createElement("p");
-	p.textContent = element;
-	rolls.appendChild(p);
-    });
-
     ball_types = [];
 
     arr.forEach(element => {
