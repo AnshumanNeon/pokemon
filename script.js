@@ -21,7 +21,7 @@ function run() {
     }
 
     bookemon_num = Object.keys(generation).length;
-    arr = []
+    arr = [];
 
     for(let i = 0; i < num_rolls; i++) {
 	arr.push(getRandomInt(1, bookemon_num));
@@ -35,17 +35,17 @@ function run() {
 	rolls.appendChild(p);
     });
 
-    ball_types = []
+    ball_types = [];
 
     arr.forEach(element => {
-	let type = prompt(`Enter the ball type for #${element} (${generation[arr.indexOf(element)]}). Enter 1 for a Regular ball, 2 for a Great Ball, 3 for a Ultra Ball and 4 for a Master Ball.`);
+	let type = prompt(`Enter the ball type for #${element} (${generation[element]}). Enter 1 for a Regular ball, 2 for a Great Ball, 3 for a Ultra Ball and 4 for a Master Ball.`);
 	ball_types.push(type);
     });
 
-    result = []
+    result = [];
 
     for(let i = 0; i < ball_types.length; i++) {
-	result[i] += `#${arr[i]} ${generation[i]}`;
+	result[i] = `#${arr[i]} ${generation[i]}`;
 
 	let x = 0
 
