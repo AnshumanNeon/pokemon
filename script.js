@@ -4,6 +4,10 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (b - a + 1)) + a;
 }
 
+function rollDice(sides) {
+    return Math.floor(Math.random() * sides) + 1;
+}
+
 function run() {
     num_rolls = document.getElementById("rolls").value;
     gen = document.getElementById("gen").value;
@@ -51,10 +55,10 @@ function run() {
 	    x = ball_types[i] + 2;
 	}
 
-	let res = getRandomInt(1, x);
+	let res = rollDice(x);
 
 	while(res == 2) {
-	    res = getRandomInt(1, x);
+	    res = rollDice(x);
 	}
 
 	if(res == 1) {
