@@ -1,6 +1,5 @@
 function getRandomInt(min, max) {
     a = Math.floor(Math.pow(10,14) * Math.random() * Math.random()) % (max - min + 1) + min;
-    console.log(a);
     return a;
 }
 
@@ -45,21 +44,17 @@ function run() {
     for(let i = 0; i < ball_types.length; i++) {
 	result[i] = `#${add+arr[i]} ${generation[arr[i]-1]}`;
 
-	let x = 0
-
-	if(ball_types[i] == 4) {
-	    x = 1;
-	} else {
-	    x = ball_types[i] + 2;
-	}
-
 	if(ball_types[i] == 1) {
+	    x = 3;
 	    ball_arr[0] += 1;
 	} else if(ball_types[i] == 2) {
+	    x = 4;
 	    ball_arr[1] += 1;
 	} else if(ball_types[i] == 3) {
+	    x = 5;
 	    ball_arr[2] += 1;
 	} else if(ball_types[i] == 4) {
+	    x = 1;
 	    ball_arr[3] += 1;
 	}
 
