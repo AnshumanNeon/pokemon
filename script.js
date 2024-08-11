@@ -2,10 +2,6 @@ function getRandomInt(min, max) {
     return Math.floor(Math.pow(10,14) * Math.random() * Math.random()) % (max - min + 1) + min;
 }
 
-function rollDice(sides) {
-    return Math.floor(Math.random() * sides) + 1;
-}
-
 function run() {
     num_rolls = document.getElementById("rolls").value;
     gen = document.getElementById("gen").value;
@@ -65,10 +61,10 @@ function run() {
 	    ball_arr[3] += 1;
 	}
 
-	let res = rollDice(x);
+	let res = getRandomInt(1, x);
 
 	while(res == 2) {
-	    res = rollDice(x);
+	    res = getRandomInt(1, x);
 	}
 
 	if(res == 1) {
