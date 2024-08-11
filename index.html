@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <style>
+      .r {
+	  display: flex;
+      }
+    </style>
+  </head>
   <script src="./generations.js"></script>
   <script src="./script.js"></script>
   <body>
     <h1>Pokemon Catcher!</h1>
     
     <div id="form">
-	<p>How many Bookemon Rolls do you want to do?</p>
-	<input type="text" id="rolls" name="rolls">
-	<p>What is the Generation? (Enter 1, 2, or 3)</p>
-	<input type="text" id="gen" name="gen"> <br>
-	<input type="button" onClick="run();" value="Submit"></input>
+      <p>How many Bookemon Rolls do you want to do?</p>
+      <input type="text" id="rolls" name="rolls">
+      <p>What is the Generation? (Enter 1, 2, or 3)</p>
+      <input type="text" id="gen" name="gen"> <br>
+      <input type="button" onClick="run();" value="Submit"></input>
     </div>
-    <div id="balls"></div>
-    <div id="results"></div>
-    
-  </body>
-</html> 
+    <div class="r">
+      <div id="balls"></div>
+      <div id="results"></div>
+      </div>
+      
+      </body>
+      </html> 

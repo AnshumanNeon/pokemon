@@ -84,10 +84,10 @@ function run() {
     const p2 = document.createElement("p");
     const p3 = document.createElement("p");
     const p4 = document.createElement("p");
-    p1.textContent = "Regular Balls" + ball_arr[0];
-    p2.textContent = "Great Balls" + ball_arr[1];
-    p3.textContent = "Ultra Balls" + ball_arr[2];
-    p4.textContent = "Master Balls" + ball_arr[3];
+    p1.textContent = "Regular Balls: " + ball_arr[0];
+    p2.textContent = "Great Balls:   " + ball_arr[1];
+    p3.textContent = "Ultra Balls:   " + ball_arr[2];
+    p4.textContent = "Master Balls:  " + ball_arr[3];
     ball_div.appendChild(p1);
     ball_div.appendChild(p2);
     ball_div.appendChild(p3);
