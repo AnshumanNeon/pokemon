@@ -1,7 +1,5 @@
 function getRandomInt(min, max) {
-    const minCeiled = Math.ceil(min);
-    const maxFloored = Math.floor(max);
-    return Math.floor(Math.random() * (maxFloored - minCeiled + 1) + minCeiled);
+    return Math.floor(Math.pow(10,14) * Math.random() * Math.random()) % (max - min + 1) + min;
 }
 
 function rollDice(sides) {
