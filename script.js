@@ -1,5 +1,7 @@
 function getRandomInt(min, max) {
-    return Math.floor(Math.pow(10,14) * Math.random() * Math.random()) % (max - min + 1) + min;
+    a = Math.floor(Math.pow(10,14) * Math.random() * Math.random()) % (max - min + 1) + min;
+    console.log(a);
+    return a;
 }
 
 function run() {
