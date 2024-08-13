@@ -33,7 +33,7 @@ function run() {
     ball_types = [];
 
     arr.forEach(element => {
-	let type = prompt(`Enter the ball type for #${add+element} (${generation[element-1]}). Enter 1 for a Regular ball, 2 for a Great Ball, 3 for a Ultra Ball and 4 for a Master Ball.`);
+	let type = Number(prompt(`Enter the ball type for #${add+element} (${generation[element-1]}). Enter 1 for a Regular ball, 2 for a Great Ball, 3 for a Ultra Ball and 4 for a Master Ball.`, 1));
 	ball_types.push(type);
     });
 
